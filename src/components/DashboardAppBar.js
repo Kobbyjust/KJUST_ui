@@ -43,6 +43,7 @@ export default function DashboardAppBar(props) {
                     <Button color="inherit" onClick={() => renderDevices(dashboard)}>Devices</Button>
                     <Button color="inherit" onClick={() => renderHosts(dashboard)}>Hosts</Button>
                     <Button color="inherit" onClick={() => renderServices(dashboard)}>Services</Button>
+                    <Button sx={{ textTransform: "capitalize"}} color="secondary" variant="contained" component={"a"} target="_blank" href={"https://kjustnetworkmanagement.awsapps.com/start/"}>Manage</Button>
                 </Toolbar>
             </AppBar>
         </div>
